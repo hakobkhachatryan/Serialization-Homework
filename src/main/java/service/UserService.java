@@ -1,3 +1,7 @@
+package service;
+
+import model.User;
+
 import java.io.*;
 
 public class UserService {
@@ -53,3 +57,4 @@ public class UserService {
         return result;
     }
 }
+

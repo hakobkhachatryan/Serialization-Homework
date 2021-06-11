@@ -1,3 +1,6 @@
+import model.*;
+import service.UserService;
+
 import java.util.ArrayList;
 import java.util.List;
 

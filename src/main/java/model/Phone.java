@@ -1,3 +1,5 @@
+package model;
+
 import java.io.Serializable;
 
 public class Phone implements Serializable {
@@ -33,3 +35,4 @@ public class Phone implements Serializable {
         this.number = number;
     }
 }
+

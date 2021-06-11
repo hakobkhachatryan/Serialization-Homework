@@ -1,9 +1,10 @@
+package model;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 public class User implements Serializable {
-//    public static final long serialVersionUID = 123455661L;
+    //    public static final long serialVersionUID = 123455661L;
     private String login;
     private transient String password;
     private int year;
@@ -19,6 +20,14 @@ public class User implements Serializable {
         this.password = password;
         this.year = year;
         this.admin = admin;
+    }
+
+    public User(String login, String password, int year, boolean admin, Car car) {
+        this.login = login;
+        this.password = password;
+        this.year = year;
+        this.admin = admin;
+        this.car = car;
     }
 
     public User(String login, String password, int year, boolean admin, Car car, List<Phone> phones) {
